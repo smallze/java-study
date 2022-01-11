@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.dao.UserDao">
+    <select id="getUserById" parameterType="java.lang.Integer" resultType="User">
+        select id,name from tb_user
+        where id = #{id}
+    </select>
+
+    <select id="getUserList" resultType="User">
+        select id,name from tb_user
+    </select>
+
+    <update id="updateUserName" parameterType="User">
+        UPDATE tb_user set name = #{name}
+        where id = #{id}
+    </update>
+
+    <insert id="insertUser" parameterType="User">
+        INSERT INTO tb_user
+        (id,name)VALUES(#{id},#{name})
+    </insert>
+
+    <insert id="insertUser1">
+        INSERT INTO tb_user
+        (id,name)VALUES(#{arg0},#{arg1})
+    </insert>
+
+    <insert id="insertUserWithMap">
+        INSERT INTO tb_user
+        (id,name)VALUES(#{id},#{name})
+    </insert>
+
+    <select id="getUserWithHasMap" resultType="java.util.Map" parameterType="java.lang.Integer">
+        select id,name,gender from tb_user
+         where id = #{id}
+    </select>
+
+    <select id="getUserListLike" resultType="User">
+        select id,name from tb_user
+        where name like CONCAT('%',#{name},'%')
+    </select>
+
+    <resultMap id="stuMap" type="Student">
+        <association property="teacher" column="tid" select="getTeacher" javaType="Teacher">
+
+        </association>
+    </resultMap>
+
+    <select id="getStudentList" resultMap="stuMap">
+        SELECT id,name,tid from tb_student
+    </select>
+
+    <select id="getTeacher" resultType="Teacher">
+        SELECT id,name from tb_teacher where id = #{id}
+    </select>
+
+    <resultMap id="stuMap2" type="Student">
+        <association property="teacher" javaType="Teacher">
+            <id column="tid" property="id"/>
+            <result column="tname" property="name"/>
+        </association>
+    </resultMap>
+
+    <select id="getStudentList2" resultMap="stuMap2">
+        SELECT s.id,s.name,s.tid,t.name tname
+        from tb_student s,tb_teacher t
+        WHERE s.tid = t.id
+    </select>
+
+    <resultMap id="teacherMap1" type="TeacherExt">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <collection property="students" ofType="StudentExt">
+            <id column="sid" property="id" />
+            <result column="sname" property="name" />
+        </collection>
+    </resultMap>
+
+    <select id="getTeacherList1" resultMap="teacherMap1">
+         SELECT s.id sid,s.name sname,t.id,t.name
+        from tb_student s,tb_teacher t
+        WHERE s.tid = t.id
+    </select>
+</mapper>
