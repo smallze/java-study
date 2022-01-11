@@ -9,4 +9,6 @@ import java.util.List;
 public interface BlogDao {
 
     List<Blog> getBlogList();
+
+    void saveBlog(Blog blog);
 }

@@ -71,4 +71,27 @@ public class Mybatis_2 {
         }
     }
 
+    /**
+     * 标签
+     */
+    @Test
+    public void test3(){
+        SqlSession sqlSession1 = MybatisUtil.getSqlSession();
+        try {
+            BlogDao blogDao1 = sqlSession1.getMapper(BlogDao.class);
+            Blog blog = new Blog();
+            blog.setTitle("头条新闻1");
+            blogDao1.saveBlog(blog);
+
+            Blog blog1 = new Blog();
+            blog1.setTitle("头条新闻2");
+            blog1.setContent("马上放假了");
+            blogDao1.saveBlog(blog1);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession1.close();
+        }
+    }
+
 }

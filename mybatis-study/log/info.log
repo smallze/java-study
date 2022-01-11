@@ -1,0 +1,459 @@
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 530042637.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1f97cf0d]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserWithHasMap]==>  Preparing: select id,name,gender from tb_user where id = ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserWithHasMap]==> Parameters: 4(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserWithHasMap]<==      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1f97cf0d]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1f97cf0d]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 530042637 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 620557167.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]==>  Preparing: select id,name from tb_user where id = ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]==> Parameters: 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]<==      Total: 1
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==>  Preparing: select id,name from tb_user
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]<==      Total: 5
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 620557167 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 620557167.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]==>  Preparing: select id,name from tb_user where id = ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]==> Parameters: 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]<==      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1526970878.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1526970878 to pool.
+[DEBUG][22-01-07][SQL_CACHE]Cache Hit Ratio [SQL_CACHE]: 0.0
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==>  Preparing: SELECT count(0) FROM tb_user
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]<==      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 620557167 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 620557167.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]==>  Preparing: select id,name from tb_user where id = ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]==> Parameters: 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserById]<==      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1526970878.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1526970878 to pool.
+[DEBUG][22-01-07][SQL_CACHE]Cache Hit Ratio [SQL_CACHE]: 0.0
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==>  Preparing: SELECT count(0) FROM tb_user
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]<==      Total: 1
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==>  Preparing: select id,name from tb_user LIMIT ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==> Parameters: 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]<==      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@24fcf36f]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 620557167 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1471086700.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1471086700 to pool.
+[DEBUG][22-01-07][SQL_CACHE]Cache Hit Ratio [SQL_CACHE]: 0.0
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Checked out connection 1471086700 from pool.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==>  Preparing: SELECT count(0) FROM tb_user
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]<==      Total: 1
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==>  Preparing: select id,name from tb_user LIMIT ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==> Parameters: 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]<==      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1471086700 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1471086700.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1471086700 to pool.
+[DEBUG][22-01-07][SQL_CACHE]Cache Hit Ratio [SQL_CACHE]: 0.0
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Checked out connection 1471086700 from pool.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==>  Preparing: SELECT count(0) FROM tb_user
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]<==      Total: 1
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==>  Preparing: select id,name from tb_user LIMIT ?, ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==> Parameters: 1(Long), 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]<==      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1471086700 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1471086700.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1471086700 to pool.
+[DEBUG][22-01-07][SQL_CACHE]Cache Hit Ratio [SQL_CACHE]: 0.0
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Checked out connection 1471086700 from pool.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==>  Preparing: SELECT count(0) FROM tb_user
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]<==      Total: 1
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==>  Preparing: select id,name from tb_user LIMIT ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==> Parameters: 5(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]<==      Total: 5
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1471086700 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2016828666.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2016828666 to pool.
+[DEBUG][22-01-07][SQL_CACHE]Cache Hit Ratio [SQL_CACHE]: 0.0
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Checked out connection 2016828666 from pool.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78365cfa]
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==>  Preparing: SELECT count(0) FROM tb_user
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList_COUNT]<==      Total: 1
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==>  Preparing: select id,name from tb_user LIMIT ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]==> Parameters: 5(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getUserList]<==      Total: 5
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78365cfa]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78365cfa]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2016828666 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2051120548.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a419da4]
+[DEBUG][22-01-07][com.study.dao.UserDao.getStudentList]==>  Preparing: SELECT id,name,tid from tb_student
+[DEBUG][22-01-07][com.study.dao.UserDao.getStudentList]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getTeacher]====>  Preparing: SELECT id,name from tb_teacher where id = ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getTeacher]====> Parameters: 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getTeacher]<====      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a419da4]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a419da4]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2051120548 to pool.
+[DEBUG][22-01-07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-07][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-01-07][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-01-07][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-01-07][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-01-07][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a	  J	  K	  L M
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-07][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-07][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Student matches criteria [is assignable to Object]
+[DEBUG][22-01-07][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-01-07][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.User matches criteria [is assignable to Object]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 850551034.
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-07][com.study.dao.UserDao.getStudentList]==>  Preparing: SELECT id,name,tid from tb_student
+[DEBUG][22-01-07][com.study.dao.UserDao.getStudentList]==> Parameters: 
+[DEBUG][22-01-07][com.study.dao.UserDao.getTeacher]====>  Preparing: SELECT id,name from tb_teacher where id = ?
+[DEBUG][22-01-07][com.study.dao.UserDao.getTeacher]====> Parameters: 1(Integer)
+[DEBUG][22-01-07][com.study.dao.UserDao.getTeacher]<====      Total: 1
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-07][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-07][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 850551034 to pool.
+[DEBUG][22-01-08][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-01-08][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a	  J	  K	  L M
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Student matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.User matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1740846921.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@67c33749]
+[DEBUG][22-01-08][com.study.dao.UserDao.getUserListLike]==>  Preparing: select id,name from tb_user where name like CONCAT('%',?,'%')
+[DEBUG][22-01-08][com.study.dao.UserDao.getUserListLike]==> Parameters: 张(String)
+[DEBUG][22-01-08][com.study.dao.UserDao.getUserListLike]<==      Total: 2
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@67c33749]
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@67c33749]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1740846921 to pool.
+[DEBUG][22-01-08][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-01-08][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a	  J	  K	  L M
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Student matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.User matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 850551034.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList]==>  Preparing: SELECT id,name,tid from tb_student
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList]==> Parameters: 
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]====>  Preparing: SELECT id,name from tb_teacher where id = ?
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]====> Parameters: 1(Integer)
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]<====      Total: 1
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 850551034 to pool.
+[DEBUG][22-01-08][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-01-08][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a	  J	  K	  L M
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Student matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.User matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 850551034.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList]==>  Preparing: SELECT id,name,tid from tb_student
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList]==> Parameters: 
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]====>  Preparing: SELECT id,name from tb_teacher where id = ?
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]====> Parameters: 1(Integer)
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]<====      Total: 1
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]====>  Preparing: SELECT id,name from tb_teacher where id = ?
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]====> Parameters: 2(Integer)
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacher]<====      Total: 1
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList]<==      Total: 2
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 850551034 to pool.
+[DEBUG][22-01-08][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-01-08][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a	  J	  K	  L M
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Student matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.User matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 850551034.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList2]==>  Preparing: SELECT s.id,s.name,s.tid,t.name tname from tb_student s,tb_teacher t WHERE s.tid = t.id
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList2]==> Parameters: 
+[DEBUG][22-01-08][com.study.dao.UserDao.getStudentList2]<==      Total: 2
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32b260fa]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 850551034 to pool.
+[DEBUG][22-01-08][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-01-08][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: StudentExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: TeacherExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a	  J	  K	  L M
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/StudentExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/StudentExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/TeacherExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/TeacherExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 g	  P	  Q	  R S
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Student matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.StudentExt matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.TeacherExt matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.User matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1833848849.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d4e5011]
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacherList1]==>  Preparing: SELECT s.id sid,s.name sname,t.id,t.name from tb_student s,tb_teacher t WHERE s.tid = t.id
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacherList1]==> Parameters: 
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacherList1]<==      Total: 2
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d4e5011]
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d4e5011]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1833848849 to pool.
+[DEBUG][22-01-08][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-01-08][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-01-08][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: StudentExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: TeacherExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/github/mybatis-study/target/classes/com/study/domain
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Student.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a	  J	  K	  L M
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/StudentExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/StudentExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/Teacher.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/TeacherExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/TeacherExt.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 g	  P	  Q	  R S
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/github/mybatis-study/target/classes/com/study/domain/User.class
+[DEBUG][22-01-08][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 R	  >	  ? @
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Student matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.StudentExt matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.TeacherExt matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.study.domain.User matches criteria [is assignable to Object]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1833848849.
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d4e5011]
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacherList1]==>  Preparing: SELECT s.id sid,s.name sname,t.id,t.name from tb_student s,tb_teacher t WHERE s.tid = t.id
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacherList1]==> Parameters: 
+[DEBUG][22-01-08][com.study.dao.UserDao.getTeacherList1]<==      Total: 2
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d4e5011]
+[DEBUG][22-01-08][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d4e5011]
+[DEBUG][22-01-08][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1833848849 to pool.
