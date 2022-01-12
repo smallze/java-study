@@ -1,0 +1,5 @@
+
+]squid:UselessImportCheck"2Remove this unused import 'com.study.domain.User'.(™ç¢ò8Ê°Çä/
+Psquid:S1481"2Remove this unused "provideUserId" local variable.(è¨Á8—Ô³Çä/
+Vsquid:S1481"3Remove this unused "consumerUserId" local variable.(ßéšˆúÿÿÿÿ8—Ô³Çä/
+esquid:S1854"BRemove this useless assignment to local variable "consumerUserId".(ßéšˆúÿÿÿÿ8—Ô³Çä/

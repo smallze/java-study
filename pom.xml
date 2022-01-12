@@ -26,6 +26,7 @@
     <modules>
         <module>basic-study</module>
         <module>mybatis-study</module>
+        <module>tx-study</module>
     </modules>
 
 </project>
