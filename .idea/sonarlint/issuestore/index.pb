@@ -29,3 +29,5 @@ a
 tx-study/pom.xml,a\c\ac1aa10351dc89185b56659f4ba426dd6c738f0f
 a
 1tx-study/src/main/resources/applicationConfig.xml,c\5\c533fb7bf974bd278cc2882c996dba60ea4c22ca
+i
+9mybatis-study/src/main/java/com/study/test/Mybatis_1.java,8\6\864ac3048848c3ce76cac00711db5fc3bc3a923c

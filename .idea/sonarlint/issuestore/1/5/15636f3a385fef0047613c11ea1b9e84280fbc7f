@@ -1,5 +1,12 @@
 
-]squid:UselessImportCheck"2Remove this unused import 'com.study.domain.User'.(™ç¢ò8Ê°Çä/
-Psquid:S1481"2Remove this unused "provideUserId" local variable.(è¨Á8—Ô³Çä/
-Vsquid:S1481"3Remove this unused "consumerUserId" local variable.(ßéšˆúÿÿÿÿ8—Ô³Çä/
-esquid:S1854"BRemove this useless assignment to local variable "consumerUserId".(ßéšˆúÿÿÿÿ8—Ô³Çä/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ôö¿ïùÿÿÿÿ8·˜úàä/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(õš‡àúÿÿÿÿ8ªùàä/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿¿±úÿÿÿÿ8·˜úàä/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ´‘Ñúÿÿÿÿ8˜õıàä/
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(¾—¾Íÿÿÿÿÿ8ôÑüàä/
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(åá¹ó8†¨şàä/

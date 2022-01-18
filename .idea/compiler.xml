@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="basic-study" />
         <module name="mybatis-study" />
+        <module name="thread-study" />
         <module name="tx-study" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="basic-study" target="1.8" />
       <module name="java-study" target="1.8" />
       <module name="mybatis-study" target="1.8" />
+      <module name="thread-study" target="1.8" />
       <module name="tx-study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
