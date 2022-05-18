@@ -49,8 +49,8 @@ public class Lock1 {
         thread2.setName("窗口2");
         thread3.setName("窗口3");
 
-        thread1.start();
-        thread2.start();
+//        thread1.start();
+//        thread2.start();
         thread3.start();
     }
 }
